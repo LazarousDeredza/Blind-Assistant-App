@@ -46,6 +46,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var textBackgroundPaint = Paint()
     private var textPaint = Paint()
 
+
+
     private var scaleFactor: Float = 1f
 
     private var bounds = Rect()
