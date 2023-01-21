@@ -177,6 +177,7 @@ class MainActivity : AppCompatActivity() {
 
 
                             //Mail sent Failed
+                            //Sending email function
 
                             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                                 textToSpeech?.speak(" There Was an error in sending your email, try again later"
